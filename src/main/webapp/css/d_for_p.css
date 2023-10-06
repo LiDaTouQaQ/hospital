@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body{
+    background: url(../img/背景.png);
+}
+.counter{
+    width: 1240px;
+    margin: 0 auto;
+}
+.work{
+    background-color: aliceblue;
+    margin-top: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px 8px 8px 8px;
+    position: relative;    
+}
+.title{
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+}
+table{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+table tr td{
+    border: 1px solid #b2b2b2;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    overflow: hidden;
+    text-align:center;
+    line-height: normal;
+}
+span{
+    padding: 10px 20px;
+}
+input{
+    width: 140px;
+    height: 25px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+    padding: 0px 5px;
+}
+textarea{
+    height: 60px;
+}
+select{
+    height: 25px;
+    width: 100px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+}
+table button{
+    margin: 0px;
+}
+button{
+    margin: 20px;
+}
+.title~div{
+    margin-bottom: 20px;
+}

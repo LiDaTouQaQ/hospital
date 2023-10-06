@@ -1,0 +1,66 @@
+.head{
+    width: 100%;
+    height: 100vh;
+    background:url(../img/背景.png);
+}
+.counter{
+    width: 1240px;
+    margin: 0 auto;
+}
+.title{
+    width: 300px;
+    margin: 0 600px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+form{
+    margin: 20px 540px;
+    width: 300px;
+}
+form div{
+    height: 80px;
+}
+form input{
+    border: 1px solid #b2b2b2;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 6px;
+}
+form input:focus{
+    border: 1px solid #424242;
+}
+form span{
+    display: block;
+    float: left;
+    width: 80px;
+    font-size: 15px;
+    text-align: center;
+}
+form em{
+    height: 11px;
+    display: block;
+    font-size: 9px;
+    color: red;
+    margin-left: 20px;
+    display: none;
+}
+form button{
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    border: none;
+    margin-left: 100px;  
+    margin-top: 20px;
+}
+form button:hover{
+    border: 1px solid #b2b2b2;
+}
+form input[type='checkbox']{
+    width: 15px;
+    margin-top: 10px;
+    height: 15px;
+}
+form label{
+    padding-left: 5px;
+}

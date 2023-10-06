@@ -1,0 +1,132 @@
+body{
+    background: url(../img/背景.png);
+}
+.counter{
+    width: 1240px;
+    margin: 0 auto;
+}
+.work_line{
+    background-color: #fff;
+    margin-top: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px 8px 8px 8px;
+    position: relative;    
+}
+form{
+    float: left;
+}
+span{
+    padding: 0 10px;
+}
+.message_box div{
+    text-align: left;
+}
+ul li:first-child .m_title{
+    border-radius: 8px 0px 0px 0px;
+}
+ul li {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+}
+.message_box{
+    display: none;
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 200px;
+    top: 0;
+    border-radius: 8px 8px 8px 8px;
+}
+.now_display{ 
+    background-color: aliceblue;
+    display: block;
+}
+.m_title{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+}
+.m_title~div{
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+}
+textarea{
+    margin: 0 10px;
+    height: 60px;
+}
+.m_title~form div input{
+    width: 130px;
+    margin-left: 100px;
+    border: 0.8px solid #b2b2b2;
+    padding: 2px 5px;
+}
+.message_box table{
+    margin: 0 20px;
+}
+.message_box table tr td{
+    border: 1px solid #b2b2b2;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    overflow: hidden;
+    text-align:center;
+    line-height: normal;
+}
+form{
+    width: 600px;
+    clear: both;
+}
+form span{
+    padding: 0 10px;
+}
+form input{
+    width: 100px;
+    height: 25px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+    padding: 0px 5px;
+}
+form button{
+    height: 25px;
+    margin-top: 0px;
+    background-color: #b2b2b2;
+    color: #424242;
+    padding:2px 2px;
+}
+.work_head span{
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.work_li div{
+    float: left;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+.work_li li {
+    position: relative;
+    width: 600px;
+    background-color:aliceblue;
+}
+.work_li div span{
+    display: inline;
+    padding: 0 5px;
+    font-size: 10px;
+}
+.work_li form button{
+    position: absolute;
+    right: -20px;
+    top: 10px
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+body{
+    background: url(../img/背景.png);
+}
+.counter{
+    width: 1240px;
+    margin: 0 auto;
+}
+span{
+    padding:0px 10px;
+}
+.work_line{
+    background-color: #fff;
+    margin-top: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px 8px 8px 8px;
+    position: relative;    
+}
+ul li:first-child .m_title{
+    border-radius: 8px 0px 0px 0px;
+}
+ul li {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+}
+.message_box{
+    display: none;
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 200px;
+    top: 0;
+    border-radius: 8px 8px 8px 8px;
+}
+.now_display{ 
+    background-color: aliceblue;
+    display: block;
+}
+.m_title{
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+}
+.m_title~div{
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+}
+.m_title div span{
+    display: inline-block;
+    width: 300px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+.m_title~div textarea{
+    margin-left: 100px;
+    height: 60px;
+}
+.m_title~form div input{
+    margin-left: 100px;
+    border: 0.8px solid #b2b2b2;
+    padding: 2px 5px;
+}
+.message_box table{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.message_box table tr td{
+    border: 1px solid #b2b2b2;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    overflow: hidden;
+    text-align:center;
+    line-height: normal;
+}
+.message_box div span:nth-child(2){
+    margin-left: 40px;
+    width: 400px;
+    
+}
+.message_box div input{
+    height: 25px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+    padding: 5px 0;
+}
+.message_box div input:focus{
+    border: 1px solid #424242;
+}
+.message_box div select{
+    height: 25px;
+    width: 100px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+}
+.message_box div form span{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.p_mess input{
+    height: 25px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #b2b2b2;
+    padding: 5px 0;
+}
+.p_mess div{
+    text-align: left;
+}
+.p_mess~div{
+    clear: both;
+}
+.p_mess button{
+    float: left;
+    margin: 20px 20px;
+}
